@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-wrapper" action="index.html" method="post">
+
+        <fieldset>
+          <legend>REGISTRATION FORM</legend>
+          <div class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input type="text" id = "name"class= "form-control name"name="name" value="">
+          </div>
+          <div class="form-group">
+            <label class="form-label password" for="password">Password</label>
+            <input type="password" class= "form-control password" id = "password"name="" value="">
+          </div>
+          <div class="form-group">
+            <label class="form-label email" for="email">Email</label>
+            <input type="email" class= "form-control email" id = "email"name="" value="">
+          </div>
+          <div class="form-group">
+            <label class="form-label gender" for="gender">Gender</label>
+            <div class="form-group">
+              <input type="radio" class="form-control" id="Male" name="gender" value="Male"
+                     checked>
+              <label class="form-label" for="Male">Male</label>
+            </div>
+
+            <div class="form-group">
+              <input class= "form-control"type="radio" id="female" name="gender" value="Female">
+              <!--label   class="form-label for="female">Female </label-->
+              <label for="female", name="gender" class= "form-comtrol" value = "Female">Female</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class = "form-label" for="interest">Intrested In</label>
+            <select multiple class="form-control" id= "interest" name="interest" >
+              <option value="">Designing</option>
+              <option value="">Coding</option>
+              <option value="">Analysis</option>
+              <option value="">Data0Science</option>
+              <option value="">Support</option>
+              <option value="">Consultamt</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class = "form-label" for="termsAndConditions">Accept Terms & Conditions</label>
+            <input type="checkbox" id = "termsAndConditions" class="form-control" name="termsAndConditions" value="">
+          </div>
+
+          <div class="form-group">
+            <input type="submit" class= "form-control" name="submit" value="Submit">
+          </div>
+        </fieldset>
+
+      </form>
+    </div>
+
+  </body>
+</html>
